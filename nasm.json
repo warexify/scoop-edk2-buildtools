@@ -1,0 +1,30 @@
+{
+    "homepage": "https://www.nasm.us",
+    "description": "General-purpose x86 assembler Netwide Assembler",
+    "license": "BSD-2-Clause",
+    "version": "2.13.03",
+    "extract_dir": "nasm-2.13.03",
+    "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.13.03/win64/nasm-2.13.03-win64.zip",
+    "hash": "B3A1F896B53D07854884C2E0D6BE7DEFBA7EBD09B864BBB9E6D69ADA1C3E989F",
+    "bin": [
+        "nasm.exe",
+        "ndisasm.exe",
+        "rdoff/ldrdf.exe",
+        "rdoff/rdf2bin.exe",
+        "rdoff/rdf2com.exe",
+        "rdoff/rdf2ihx.exe",
+        "rdoff/rdf2ith.exe",
+        "rdoff/rdf2srec.exe",
+        "rdoff/rdfdump.exe",
+        "rdoff/rdflib.exe",
+        "rdoff/rdx.exe"
+    ],
+    "env_set": {
+        "NASM_PREFIX": "$dir\\"
+    },
+    "checkver": "The latest stable version of NASM is\\s+.+\\/(?<version>[\\d\\.]+)",
+    "autoupdate": {
+        "url": "https://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip",
+        "extract_dir": "nasm-$version"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "homepage": "http://cmder.net",
+    "description": "Portable console emulator for Windows",
+    "version": "1.3.7",
+    "license": "MIT",
+    "persist": "config",
+    "url": "https://github.com/warexify/cmder/releases/download/v1.3.7/cmder_mini.zip",
+    "hash": "81FFE7CE951F45211BA55090261A3AC95440D5DBDC543B4389A8F4FD43299EDE",
+    "bin": "Cmder.exe",
+    "shortcuts": [
+        [
+            "Cmder.exe",
+            "Cmder"
+        ]
+    ],
+    "env_set": {
+        "CMDER_ROOT": "$dir",
+        "ConEmuDir": "$dir\\vendor\\conemu"
+    },
+    "checkver": {
+        "github": "https://github.com/warexify/cmder"
+    },
+    "autoupdate": {
+        "url": "https://github.com/warexify/cmder/releases/download/v$version/cmder_mini.zip",
+        "hash": {
+            "url": "https://github.com/warexify/cmder/releases/download/v$version/hashes.txt",
+            "find": "$basename\\s+([A-Fa-f\\d]{64})"
+        }
+    }
+}
