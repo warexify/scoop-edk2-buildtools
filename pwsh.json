@@ -1,22 +1,61 @@
 {
+    "description": "PowerShell Core. Cross-Platform task automation and configuration management framework/tool.",
     "homepage": "https://github.com/PowerShell/PowerShell",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
+    },
     "version": "6.2.0-preview.1",
-    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.1/PowerShell-6.2.0-preview.1-win-x64.zip",
-            "hash": "E07B5DF326AA9CF02C08A15C6DE9C7ADC48F1A0725EA648CE046BA9867AF781E"
+            "url": [
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.1/PowerShell-6.2.0-preview.1-win-x64.zip",
+                "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
+                "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
+            ],
+            "hash": [
+                "E07B5DF326AA9CF02C08A15C6DE9C7ADC48F1A0725EA648CE046BA9867AF781E",
+                "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
+                "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
+            ]
         },
         "32bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.1/PowerShell-6.2.0-preview.1-win-x86.zip",
-            "hash": "7B14A260EC292F1177BE1B855F25BDF5E231D071FEA5D409D7BC046077C91049"
+            "url": [
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.1/PowerShell-6.2.0-preview.1-win-x86.zip",
+                "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
+                "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
+            ],
+            "hash": [
+                "7B14A260EC292F1177BE1B855F25BDF5E231D071FEA5D409D7BC046077C91049",
+                "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
+                "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
+            ]
         }
     },
-    "bin": "pwsh.exe",
+    "notes": [
+        "Add PowerShell as a context menu option by running: '$dir\\pwsh-install-context.reg'"
+    ],
+    "bin": [
+        [
+            "pwsh.exe",
+            "pwsh",
+            "-nol"
+        ]
+    ],
     "shortcuts": [
         [
             "pwsh.exe",
-            "PowerShell Core"
+            "PowerShell Core",
+            "-nol",
+            "assets\\Powershell_black.ico"
         ]
+    ],
+    "post_install": [
+        "if(Test-Path(\"$dir\\pwsh-install-context.reg\")) {",
+        "  $pwshpath = \"$dir\".Replace('\\', '\\\\')",
+        "  $content = Get-Content \"$dir\\pwsh-install-context.reg\"",
+        "  $content = $content.Replace('$pwsh', $pwshpath)",
+        "  $content | Set-Content -Path \"$dir\\pwsh-install-context.reg\"",
+        "}"
     ]
 }

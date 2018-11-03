@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\Open PowerShell Core window here\command]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\Open PowerShell Core window here]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\Open PowerShell Core window here\command]
+[-HKEY_CLASSES_ROOT\Directory\shell\Open PowerShell Core window here]

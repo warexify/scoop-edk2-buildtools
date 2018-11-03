@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open PowerShell Core window here]
+"Icon"="$pwsh\\assets\\Powershell_black.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open PowerShell Core window here\command]
+@="\"$pwsh\\pwsh.exe\" -ex Unrestricted -nol -noe -c Set-Location -LiteralPath '%V'"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open PowerShell Core window here]
+"Icon"="$pwsh\\assets\\Powershell_black.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open PowerShell Core window here\command]
+@="\"$pwsh\\pwsh.exe\" -ex Unrestricted -nol -noe -c Set-Location -LiteralPath '%V'"
