@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/Microsoft/vsixbootstrapper",
+    "version": "1.0.31",
+    "license": "MIT",
+    "url": "https://github.com/Microsoft/vsixbootstrapper/releases/download/1.0.31/VSIXBootstrapper.exe",
+    "hash": "51EBAC5D465DA9633A693B039564EFE8FC7A2268AF98CE04B49BD4BCE7CE7CCB",
+    "bin": "VSIXBootstrapper.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Microsoft/vsixbootstrapper/releases/download/$version/VSIXBootstrapper.exe"
+    }
+}
