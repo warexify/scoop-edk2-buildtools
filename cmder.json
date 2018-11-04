@@ -10,7 +10,8 @@
     "shortcuts": [
         [
             "Cmder.exe",
-            "Cmder"
+            "Cmder",
+            "icons\\cmder_blue.ico"
         ]
     ],
     "env_set": {
