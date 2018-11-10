@@ -2,10 +2,18 @@
     "homepage": "https://www.nasm.us",
     "description": "General-purpose x86 assembler Netwide Assembler",
     "license": "BSD-2-Clause",
-    "version": "2.13.03",
-    "extract_dir": "nasm-2.13.03",
-    "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.13.03/win64/nasm-2.13.03-win64.zip",
-    "hash": "B3A1F896B53D07854884C2E0D6BE7DEFBA7EBD09B864BBB9E6D69ADA1C3E989F",
+    "version": "2.14",
+    "extract_dir": "nasm-2.14",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nasm.us/pub/nasm/stable/win64/nasm-2.14-win64.zip",
+            "hash": "EB63653ED3FC8F3A3BB082F2ED7A04A9B676A6B1994095467F0AC79213D1152F"
+        },
+        "32bit": {
+            "url": "https://www.nasm.us/pub/nasm/stable/win32/nasm-2.14-win32.zip",
+            "hash": "CEE158DD430294E9B1CE7A609F6C11F48E34E5D0631F6DAFB4A1657C7F15638C"
+        }
+    },
     "bin": [
         "nasm.exe",
         "ndisasm.exe",
@@ -22,9 +30,19 @@
     "env_set": {
         "NASM_PREFIX": "$dir\\"
     },
-    "checkver": "The latest stable version of NASM is\\s+.+\\/(?<version>[\\d\\.]+)",
+    "checkver": {
+        "url": "https://www.nasm.us/pub/nasm/stable/win64/",
+        "re": "nasm-([\\d\\.]+)-win64.zip"
+    },
     "autoupdate": {
-        "url": "https://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip",
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nasm.us/pub/nasm/stable/win64/nasm-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://www.nasm.us/pub/nasm/stable/win32/nasm-$version-win32.zip"
+            }
+        },
         "extract_dir": "nasm-$version"
     }
 }
