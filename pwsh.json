@@ -5,36 +5,34 @@
         "identifier": "MIT",
         "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
     },
-    "version": "6.2.0-preview.1",
+    "version": "6.2.0-preview.2",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.1/PowerShell-6.2.0-preview.1-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.2/PowerShell-6.2.0-preview.2-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "E07B5DF326AA9CF02C08A15C6DE9C7ADC48F1A0725EA648CE046BA9867AF781E",
+                "058446B6DC1591CEA7E4C75C0313046A1D87EF65FD6F6F6AC096127AD60A37E9",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.1/PowerShell-6.2.0-preview.1-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.2/PowerShell-6.2.0-preview.2-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "7B14A260EC292F1177BE1B855F25BDF5E231D071FEA5D409D7BC046077C91049",
+                "9EC6A29839C9806D6397A09770B6D4D9087423B88926C2E473A8A0238C6CCBC4",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
         }
     },
-    "notes": [
-        "Add PowerShell as a context menu option by running: '$dir\\pwsh-install-context.reg'"
-    ],
+    "notes": "Add PowerShell as a context menu option by running: '$dir\\pwsh-install-context.reg'",
     "bin": [
         [
             "pwsh.exe",

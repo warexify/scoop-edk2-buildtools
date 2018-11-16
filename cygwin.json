@@ -33,6 +33,9 @@
             "--login -i"
         ]
     ],
+    "env_set": {
+        "CYGWIN_HOME": "$dir"
+    },
     "installer": {
         "args": [
             "--no-admin",
