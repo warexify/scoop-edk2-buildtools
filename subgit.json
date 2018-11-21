@@ -1,0 +1,32 @@
+{
+    "homepage": "https://subgit.com",
+    "version": "3.3.5",
+    "license": "https://subgit.com/eula",
+    "url": "https://subgit.com/files/subgit-3.3.5.zip",
+    "hash": "c69be5e8724e5c7260e40586abdf42b79e025ac4bbdd5bf76e4cafab6e860a38",
+    "extract_dir": "subgit-3.3.5",
+    "env_add_path": "bin",
+    "checkver": {
+        "url": "https://subgit.com/download",
+        "re": "(?<version>\\d\\.\\d\\.\\d)",
+        "reverse": false
+    },
+    "autoupdate": {
+        "url": "https://subgit.com/files/subgit-$version.zip",
+        "extract_dir": "subgit-$version"
+    },
+    "persist": "daemon-shared",
+    "pre_install": [
+        "$root=(scoop which subgit | split-path -res -par | split-path -par)",
+        "Write-Host \"To uninstall service type:\n\"",
+        "Write-Host \"#sc.exe stop \"SubgitService\"\"\n",
+        "Write-Host \"#sc.exe delete \"SubgitService\"\"\n"
+    ],
+    "post_install": [
+        "$root=(scoop which subgit | split-path -res -par | split-path -par)",
+        "Write-Host \"To install service type:\n\"",
+        "Write-Host \"#sc.exe create \"SubgitService\" type= own start= auto error= normal binpath= \"$root\\bin\\subgit.bat daemon start $root\\daemon-shared\" displayname= \"Subgit Service\"\"\n",
+        "Write-Host \"#sc.exe start \"SubgitService\"\"\n"
+    ],
+    "notes": "Yay."
+}

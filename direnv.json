@@ -2,11 +2,11 @@
     "homepage": "https://direnv.net",
     "description": "Environment switcher for the shell",
     "license": "MIT",
-    "version": "2.17.0",
+    "version": "2.18.2",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/direnv/direnv/releases/download/v2.17.0/direnv.windows-386.exe",
-            "hash": "D485B97CF08DFDADCEFA20BF7B2779AD292F42CB777C554BC7241607AA3D3F8C",
+            "url": "https://github.com/direnv/direnv/releases/download/v2.18.2/direnv.windows-386.exe",
+            "hash": "8a10dbe41459c05d8438fa4a1f797e8269fcfce969cfa236e7446c907f37ef1b",
             "bin": [
                 [
                     "direnv.windows-386.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "64bit": {
-            "url": "https://github.com/direnv/direnv/releases/download/v2.17.0/direnv.windows-amd64.exe",
-            "hash": "4BE243B74EFF1557F7CBCDEE8A539B894D1EB402DD3ED28BB31ED71769067FDB",
+            "url": "https://github.com/direnv/direnv/releases/download/v2.18.2/direnv.windows-amd64.exe",
+            "hash": "ee35a92dec5819126c1c8fdbb0226c0e4b0da0f89bcc1ba07392ee0b84ffae67",
             "bin": [
                 [
                     "direnv.windows-amd64.exe",

@@ -14,7 +14,7 @@
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "058446B6DC1591CEA7E4C75C0313046A1D87EF65FD6F6F6AC096127AD60A37E9",
+                "058446b6dc1591cea7e4c75c0313046a1d87ef65fd6f6f6ac096127ad60a37e9",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
@@ -26,7 +26,7 @@
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "9EC6A29839C9806D6397A09770B6D4D9087423B88926C2E473A8A0238C6CCBC4",
+                "9ec6a29839c9806d6397a09770b6d4d9087423b88926c2e473a8a0238c6ccbc4",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
@@ -55,5 +55,23 @@
         "  $content = $content.Replace('$pwsh', $pwshpath)",
         "  $content | Set-Content -Path \"$dir\\pwsh-install-context.reg\"",
         "}"
-    ]
+    ],
+    "checkver": {
+        "url": "https://github.com/PowerShell/PowerShell/releases",
+        "re": "v([^\\ ]+)/PowerShell-([^\\ ]+).*\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
+            "find": "$basename\\s*<ul>\\s*<li>([A-Fa-f\\d]{64})"
+        }
+    }
 }

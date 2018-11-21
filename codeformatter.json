@@ -4,5 +4,12 @@
     "license": "MIT",
     "url": "https://github.com/dotnet/codeformatter/releases/download/v1.0.0-alpha7/CodeFormatter.zip",
     "hash": "F7CF7CD44811F1340A75555AC714CE53A2047F9F0D0657896387CE3160372CBE",
-    "bin": "CodeFormatter.exe"
+    "bin": "CodeFormatter.exe",
+    "checkver": {
+        "url": "https://github.com/dotnet/codeformatter/releases",
+        "re": "v(?<version>[^\\ ]+)/CodeFormatter.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/dotnet/codeformatter/releases/download/v$matchVersion/CodeFormatter.zip"
+    }
 }
