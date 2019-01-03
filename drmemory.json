@@ -15,35 +15,35 @@
         "/bin64/vs_external_tool.exe",
         "/bin64/winsyms.exe",
         [
-            "/bin32/drconfig.exe",
+            "/bin/drconfig.exe",
             "drconfig32"
         ],
         [
-            "/bin32/drheapstat.exe",
+            "/bin/drheapstat.exe",
             "drheapstat32"
         ],
         [
-            "/bin32/drltrace.exe",
+            "/bin/drltrace.exe",
             "drltrace32"
         ],
         [
-            "/bin32/drmemory.exe",
+            "/bin/drmemory.exe",
             "drmemory32"
         ],
         [
-            "/bin32/drstrace.exe",
+            "/bin/drstrace.exe",
             "drstrace32"
         ],
         [
-            "/bin32/symquery.exe",
+            "/bin/symquery.exe",
             "symquery32"
         ],
         [
-            "/bin32/vs_external_tool.exe",
+            "/bin/vs_external_tool.exe",
             "vs_external_tool32"
         ],
         [
-            "/bin32/winsyms.exe",
+            "/bin/winsyms.exe",
             "winsyms32"
         ]
     ]
