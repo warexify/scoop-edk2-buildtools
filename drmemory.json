@@ -1,0 +1,50 @@
+{
+    "homepage": "https://drmemory.org/",
+    "description": "Memory Debugger for Windows, Linux, Mac, and Android",
+    "version": "1.11.17856-1",
+    "hash": "CFB041147891926D0AF50E360DD355D15714D2145E424776D1C0CC3DF4365DCB",
+    "url": "https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.0.17856/DrMemory-Windows-1.11.17856-1.zip",
+    "extract_dir": "DrMemory-Windows-1.11.17856-1",
+    "bin": [
+        "/bin64/drconfig.exe",
+        "/bin64/drltrace.exe",
+        "/bin64/drmemory.exe",
+        "/bin64/drconfig.exe",
+        "/bin64/drstrace.exe",
+        "/bin64/symquery.exe",
+        "/bin64/vs_external_tool.exe",
+        "/bin64/winsyms.exe",
+        [
+            "/bin32/drconfig.exe",
+            "drconfig32"
+        ],
+        [
+            "/bin32/drheapstat.exe",
+            "drheapstat32"
+        ],
+        [
+            "/bin32/drltrace.exe",
+            "drltrace32"
+        ],
+        [
+            "/bin32/drmemory.exe",
+            "drmemory32"
+        ],
+        [
+            "/bin32/drstrace.exe",
+            "drstrace32"
+        ],
+        [
+            "/bin32/symquery.exe",
+            "symquery32"
+        ],
+        [
+            "/bin32/vs_external_tool.exe",
+            "vs_external_tool32"
+        ],
+        [
+            "/bin32/winsyms.exe",
+            "winsyms32"
+        ]
+    ]
+}
