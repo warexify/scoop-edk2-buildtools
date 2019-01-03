@@ -2,12 +2,12 @@
     "homepage": "https://www.nasm.us",
     "description": "General-purpose x86 assembler Netwide Assembler",
     "license": "BSD-2-Clause",
-    "version": "2.14",
-    "extract_dir": "nasm-2.14",
+    "version": "2.14.02",
+    "extract_dir": "nasm-2.14.02",
     "architecture": {
         "64bit": {
-            "url": "https://www.nasm.us/pub/nasm/stable/win64/nasm-2.14-win64.zip",
-            "hash": "EB63653ED3FC8F3A3BB082F2ED7A04A9B676A6B1994095467F0AC79213D1152F"
+            "url": "https://www.nasm.us/pub/nasm/stable/win64/nasm-2.14.02-win64.zip",
+            "hash": "18918AC906E29417B936466E7A2517068206C8DB8C04B9762A5BEFA18BFEA5F0"
         },
         "32bit": {
             "url": "https://www.nasm.us/pub/nasm/stable/win32/nasm-2.14-win32.zip",
