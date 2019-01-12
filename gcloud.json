@@ -20,6 +20,10 @@
         "bin\\git-credential-gcloud.cmd"
     ],
     "post_install": "gcloud init",
+    "checkver": {
+        "url": "https://cloud.google.com/sdk/docs/downloads-versioned-archives",
+        "re": "<a href=\"https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-([^\\ ]+)\\-windows-x86_64-bundled-python.zip\""
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
