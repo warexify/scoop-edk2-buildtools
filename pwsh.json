@@ -5,28 +5,28 @@
         "identifier": "MIT",
         "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
     },
-    "version": "6.1.2",
+    "version": "6.2.0-preview.4",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.1.2/PowerShell-6.1.2-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.4/PowerShell-6.2.0-preview.4-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "ee7c46f2abd1cdd775c727719c12a428d47aa1c087bc849a09ae18e89982d420",
+                "c6978b584829777d32413d646551bf88e4c78b165fde89c1152cb9ecedd6e748",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.1.2/PowerShell-6.1.2-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-preview.4/PowerShell-6.2.0-preview.4-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "2d6228f4f5fe9a78188286eef51267f5de4f2c5f0ff84cd67654af4f30aedb37",
+                "5fbf9ae6c625d201ef54f5289579afd3e6a904eda7b4bee98c1a9cae1a618296",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
