@@ -5,28 +5,28 @@
         "identifier": "MIT",
         "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
     },
-    "version": "6.1.3",
+    "version": "6.2.0-rc.1",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/PowerShell-6.1.3-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-rc.1/PowerShell-6.2.0-rc.1-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "aa01a6f11c76bbd3786e274dd65f2c85ff28c08b2d778a5fc26127dfec5e67b3",
+                "e3579015bdedffb553adf174bd659710c2dab2338a9106b421f7fef2541417e4",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/PowerShell-6.1.3-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v6.2.0-rc.1/PowerShell-6.2.0-rc.1-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "cfd192e833436c7252a14c07e6ff76427219f9be47521a984605079e8e18b01f",
+                "c41ffc9ab17aada63bf604f56e52f3342b6f5ae7cfbd041631745f22a6220622",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]

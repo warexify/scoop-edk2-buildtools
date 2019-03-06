@@ -11,19 +11,21 @@
         "From \"$env:APPDATA\\azuredatastudio\" to \"$env:ALLUSERPROFILE\\scoop\\persist\\azuredatastudio-portable\\data\\user-data\""
     ],
     "extract_dir": "azuredatastudio-windows",
+    "persist": "data",
     "bin": [
         [
             "bin\\azuredatastudio.cmd",
-            "azuredatastudio"
+            "azuredatastudio",
+            "--user-data-dir $persist_dir\\data\\user-data --extensions-dir $persist_dir\\data\\extensions"
         ]
     ],
     "shortcuts": [
         [
             "azuredatastudio.exe",
-            "Azure Data Studio"
+            "Azure Data Studio",
+            "--user-data-dir $persist_dir\\data\\user-data --extensions-dir $persist_dir\\data\\extensions"
         ]
     ],
-    "persist": "data",
     "checkver": {
         "github": "https://github.com/Microsoft/azuredatastudio/"
     },
