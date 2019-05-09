@@ -1,10 +1,10 @@
 {
-    "version": "1.4.5",
+    "version": "1.7.0",
     "description": "Data management tool that enables work with SQL Server, Azure SQL DB and SQL DW.",
     "homepage": "https://docs.microsoft.com/en-us/sql/azure-data-studio",
     "license": "MIT",
-    "url": "https://github.com/Microsoft/azuredatastudio/releases/download/1.4.5/azuredatastudio-windows-1.4.5.zip",
-    "hash": "cc7dafe2d477063424b16f635fe5eb96fbec31db51639e2d7e12a81dcbeec850",
+    "url": "https://github.com/Microsoft/azuredatastudio/releases/download/1.7.0/azuredatastudio-windows-1.7.0.zip",
+    "hash": "98ebd0f05ebafcc7165b7acd71999e09a1ccc3102922a3470dc71ca0f2a85ad6",
     "notes": [
         "Azure Data Studio now supports Portable Mode! Please move the following directories:",
         "From \"$env:USERPROFILE\\.azuredatastudio\\extensions\" to \"$env:ALLUSERPROFILE\\scoop\\persist\\azuredatastudio-portable\\data\\extensions\"",
