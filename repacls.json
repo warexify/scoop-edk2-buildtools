@@ -1,9 +1,9 @@
 {
     "homepage": "https://nomorefood.github.io/Repacls",
-    "version": "1.10.0.2",
+    "version": "1.11.0.1",
     "license": "GPL-3.0",
-    "url": "https://github.com/NoMoreFood/Repacls/raw/v1.10.0.2/Build/Repacls.zip",
-    "hash": "9FC95ECD2A40C80956F12D73F4F05F7D5BC82791C233E9BC09867C21A9B6F1BC",
+    "url": "https://github.com/NoMoreFood/Repacls/raw/v1.11.0.1/Build/Repacls.zip",
+    "hash": "AE0422A332FB8CC415059F764A9D02364244A88781E41C3EF6BE1E69B330251E",
     "architecture": {
         "64bit": {
             "extract_dir": "x64"
