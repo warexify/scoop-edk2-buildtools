@@ -13,3 +13,6 @@ end_of_line = crlf
 
 [[Mm]akefile{,.*}]
 indent_style = tab
+
+[*.{yml, yaml}]
+indent_size = 2

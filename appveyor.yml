@@ -1,0 +1,26 @@
+version: '{build}-{branch}'
+
+environment:
+  scoop: C:\projects\scoop
+  scoop_home: C:\projects\scoop\apps\scoop\current
+
+branches:
+  except:
+    - gh-pages
+
+init:
+  - ps: (Get-PSProvider 'FileSystem').Home = 'c:\projects\'
+  - ps: Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+build: 'off'
+
+test_script:
+  - ps: ./bin/checkurls.ps1
+  - ps: ./bin/checkver.ps1 -f
+  - ps: |
+      Get-ChildItem .\bucket\*.json | % {
+        Write-Host "Install" $_.BaseName
+        scoop install $_.FullName
+        scoop which $_.BaseName
+      }
+  - ps: scoop list
