@@ -2,16 +2,16 @@
     "homepage": "https://github.com/aws/aws-cli",
     "description": "AWS Command Line Interface",
     "license": "Apache-2.0",
-    "version": "1.16.170",
+    "version": "1.16.171",
     "extract_dir": "Amazon/AWSCLI",
     "architecture": {
         "64bit": {
             "url": "https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi",
-            "hash": "89c13c735080b7f04dbef93230e031ffe8070a185e7e977adb1e301cdeb5928b"
+            "hash": "2adc9781f701a30cbec54ea8334cb9262836771295d06c359591fcad8748e6ce"
         },
         "32bit": {
             "url": "https://s3.amazonaws.com/aws-cli/AWSCLI32PY3.msi",
-            "hash": "901ddbbc3a087588343de1ea3329fb72acfb223f7644cf54f84f97fd294ad6d2"
+            "hash": "a8150fc5140988eabed83e8d0d8eb3b2d66f5741ace574b6b3624a81f4bb6027"
         }
     },
     "bin": [
