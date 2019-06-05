@@ -1,11 +1,7 @@
 {
-    "description": "PowerShell Core. Cross-Platform task automation and configuration management framework/tool.",
     "homepage": "https://github.com/PowerShell/PowerShell",
-    "license": {
-        "identifier": "MIT",
-        "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
-    },
     "version": "7.0.0-preview.1",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
@@ -32,7 +28,6 @@
             ]
         }
     },
-    "notes": "Add PowerShell as a context menu option by running: '$dir\\pwsh-install-context.reg'",
     "bin": [
         [
             "pwsh.exe",
@@ -56,9 +51,10 @@
         "  $content | Set-Content -Path \"$dir\\pwsh-install-context.reg\"",
         "}"
     ],
+    "notes": "Add PowerShell as a context menu option by running: '$dir\\pwsh-install-context.reg'",
     "checkver": {
-        "url": "https://github.com/PowerShell/PowerShell/releases",
-        "re": "v([^\\ ]+)/PowerShell-([^\\ ]+).*\\.zip"
+        "url": "https://github.com/PowerShell/PowerShell/releases.atom",
+        "re": "\\/releases\\/tag\\/(?:v)?([\\d.]+-[a-z]+[\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
@@ -71,7 +67,7 @@
         },
         "hash": {
             "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
-            "find": "$basename\\s*<ul>\\s*<li>([A-Fa-f\\d]{64})"
+            "find": "$basename\\s*<ul>\\s*<li>([A-Fa-f0-9]{64})"
         }
     }
 }

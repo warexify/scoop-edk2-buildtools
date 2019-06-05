@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.nasm.us",
-    "description": "General-purpose x86 assembler Netwide Assembler",
     "license": "BSD-2-Clause",
     "version": "2.14.02",
+    "description": "80x86 and x86-64 assembler designed for portability and modularity.",
     "extract_dir": "nasm-2.14.02",
     "architecture": {
         "64bit": {
-            "url": "https://www.nasm.us/pub/nasm/stable/win64/nasm-2.14.02-win64.zip",
-            "hash": "18918AC906E29417B936466E7A2517068206C8DB8C04B9762A5BEFA18BFEA5F0"
+            "url": "http://www.nasm.us/pub/nasm/releasebuilds/2.14.02/win64/nasm-2.14.02-win64.zip",
+            "hash": "18918ac906e29417b936466e7a2517068206c8db8c04b9762a5befa18bfea5f0"
         },
         "32bit": {
-            "url": "https://www.nasm.us/pub/nasm/stable/win32/nasm-2.14-win32.zip",
-            "hash": "CEE158DD430294E9B1CE7A609F6C11F48E34E5D0631F6DAFB4A1657C7F15638C"
+            "url": "http://www.nasm.us/pub/nasm/releasebuilds/2.14.02/win32/nasm-2.14.02-win32.zip",
+            "hash": "250f9b5eeb2111e8c7b494a977490985b8604fe7518a6f5041cde37cc727a067"
         }
     },
     "bin": [
@@ -31,16 +31,16 @@
         "NASM_PREFIX": "$dir\\"
     },
     "checkver": {
-        "url": "https://www.nasm.us/pub/nasm/stable/win64/",
-        "re": "nasm-([\\d\\.]+)-win64.zip"
+        "url": "https://nasm.us/doc/nasmdocc.html",
+        "re": "version ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.nasm.us/pub/nasm/stable/win64/nasm-$version-win64.zip"
+                "url": "http://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip"
             },
             "32bit": {
-                "url": "https://www.nasm.us/pub/nasm/stable/win32/nasm-$version-win32.zip"
+                "url": "http://www.nasm.us/pub/nasm/releasebuilds/$version/win32/nasm-$version-win32.zip"
             }
         },
         "extract_dir": "nasm-$version"

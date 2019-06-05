@@ -1,10 +1,10 @@
 {
     "homepage": "https://bioruebe.com/blog/dev/uniextract",
-    "description": "UniExtract",
-    "license": "GPL-2.0-only",
+    "description": "Universal Extractor 2 is an unofficial updated and extended version of the original UniExtract by Jared Breland. It brings several hundred changes including community-wanted ones such as a batch mode, auto-updater and scan-only-functionality.",
     "version": "2.0.0-rc.2",
+    "license": "GPL-2.0",
     "url": "https://github.com/Bioruebe/UniExtract2/releases/download/v2.0.0-rc.2/UniExtractRC2.zip",
-    "hash": "4AD412F2DF056EB5CDF60078550D47C10FBBB67188AA915752D2757D95F1393B",
+    "hash": "4ad412f2df056eb5cdf60078550d47c10fbbb67188aa915752d2757d95f1393b",
     "extract_dir": "UniExtract",
     "bin": [
         "UniExtract.exe",
