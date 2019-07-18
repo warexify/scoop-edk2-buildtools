@@ -1,28 +1,28 @@
 {
     "homepage": "https://github.com/PowerShell/PowerShell",
-    "version": "7.0.0-preview.1",
+    "version": "7.0.0-preview.2",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.1/PowerShell-7.0.0-preview.1-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.2/PowerShell-7.0.0-preview.2-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "d3a8926c19b264a1a6cc8f983b04a2c1e70f78eea8054e00d45abd216f7907c7",
+                "ce068509141a24e086c9cc72936899104341c5bb766fe10fd84fec2390166d66",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.1/PowerShell-7.0.0-preview.1-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.2/PowerShell-7.0.0-preview.2-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "cd85b682fe39b30f74dde9ae0fef8e6ae33ee68006e14098dceb53347fda7b8d",
+                "794350403185bce9cb31f6432f13e0bd3c74ac44a0095c0a35f2346b7e2370ef",
                 "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
                 "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
             ]
