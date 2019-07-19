@@ -1,14 +1,14 @@
 {
-    "version": "0.32.0",
+    "version": "0.33.0",
     "homepage": "https://cloud.yandex.ru/docs/cli/",
     "architecture": {
         "64bit": {
-            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.32.0/windows/amd64/yc.exe",
-            "hash": "177995a06139455a3cb31712244d2c7f386b4a9fe718ca49c74594252833326a"
+            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.33.0/windows/amd64/yc.exe",
+            "hash": "d728a5200c16d37a6d03c59bdae4bf22668df3724510adb6243f02db95f3906f"
         },
         "32bit": {
-            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.32.0/windows/386/yc.exe",
-            "hash": "aabfb74519ddda2dc3219ae885ee4b30993865f7a0ba44493adb6072775da865"
+            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.33.0/windows/386/yc.exe",
+            "hash": "1bb989c6723f3c4c873eded697b8e13f5985f14f326ad0b8c4e3f42f61152435"
         }
     },
     "bin": "yc.exe",
