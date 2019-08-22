@@ -1,0 +1,28 @@
+{
+    "##": "Renaming .msi to .msi_ so that it will not be automatically extracted by Scoop.",
+    "homepage": "http://www.secfs.net/winfsp/",
+    "description": "WinFsp attempts to ease the task of writing a new file system for Windows in the same way that FUSE has done so for UNIX.",
+    "version": "1.5.19192",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.5B2/winfsp-1.5.19192.msi#/setup.msi_",
+    "hash": "AFE0A614BFAAC83E494E74662A031BA5AE5511C0010779E4B8DD59537371CD03",
+    "pre_install": [
+        "if (-not (is_admin)) {",
+        "    Write-Host 'Elevated prompt is needed for correct installation.' -f Yellow",
+        "    exit(1)",
+        "}"
+    ],
+    "installer": {
+        "script": "Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn') | Out-Null"
+    },
+    "uninstaller": {
+        "script": "Invoke-ExternalCommand msiexec -ArgumentList @('/x', \"$dir\\setup.msi_\", '/qn') | Out-Null"
+    },
+    "checkver": {
+        "url": "https://github.com/billziss-gh/winfsp/releases",
+        "re": "\\/releases\\/download\\/(?:v|V)?(?<short>[\\d\\w.]+)/winfsp-(?<version>[\\d.]+)\\.msi"
+    },
+    "autoupdate": {
+        "url": "https://github.com/billziss-gh/winfsp/releases/download/v$matchShort/winfsp-$matchVersion.msi#/setup.msi_"
+    }
+}

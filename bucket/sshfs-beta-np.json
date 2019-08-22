@@ -1,0 +1,44 @@
+{
+    "##": "Renaming .msi to .msi_ so that it will not be automatically extracted by Scoop.",
+    "homepage": "http://www.github.com/billziss-gh/sshfs-win/",
+    "description": "SSHFS For Windows",
+    "version": "3.5.19106",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.19106/sshfs-win-3.5.19106-x64.msi#/setup.msi_",
+            "hash": "32FA683AFC00D86B40772C2E371406C8CD12CBFB122829894A8122350D7B259A"
+        },
+        "32bit": {
+            "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.19106/sshfs-win-3.5.19106-x86.msi#/setup.msi_",
+            "hash": "4F59CA4E2ACC48FBB955A591A4143DC2BB569D5FB307843F6A9317487010D609"
+        }
+    },
+    "depends": "winfsp-beta-np",
+    "pre_install": [
+        "if (-not (is_admin)) {",
+        "    Write-Host 'Elevated prompt is needed for correct installation.' -f Yellow",
+        "    exit(1)",
+        "}"
+    ],
+    "installer": {
+        "script": "Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn') | Out-Null"
+    },
+    "uninstaller": {
+        "script": "Invoke-ExternalCommand msiexec -ArgumentList @('/x', \"$dir\\setup.msi_\", '/qn') | Out-Null"
+    },
+    "checkver": {
+        "url": "https://github.com/billziss-gh/sshfs-win/releases.atom",
+        "re": "\\/releases\\/tag\\/(?:v)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v$version/sshfs-win-$version-x64.msi#/setup.msi_"
+            },
+            "32bit": {
+                "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v$version/sshfs-win-$version-x86.msi#/setup.msi_"
+            }
+        }
+    }
+}

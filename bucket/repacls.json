@@ -14,7 +14,7 @@
     },
     "bin": "repacls.exe",
     "checkver": {
-        "github": "https://github.com/NoMoreFood/Repacls",
+        "github": "https://github.com/NoMoreFood/Repacls"
     },
     "autoupdate": {
         "url": "https://github.com/NoMoreFood/Repacls/raw/$version/Build/Repacls.zip"
