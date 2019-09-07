@@ -2,14 +2,14 @@
     "homepage": "https://nomorefood.github.io/Repacls",
     "version": "1.11.0.1",
     "license": "GPL-3.0",
-    "url": "https://github.com/NoMoreFood/Repacls/raw/v1.11.0.1/Build/Repacls.zip",
-    "hash": "AE0422A332FB8CC415059F764A9D02364244A88781E41C3EF6BE1E69B330251E",
     "architecture": {
         "64bit": {
-            "extract_dir": "x64"
+            "url": "https://github.com/NoMoreFood/Repacls/raw/v1.11.0.1/Build/Release/x64/repacls.exe",
+            "hash": "7f7c13022f83db603c9836450dd4dfbc4c6a3582da4b637c7040f68d0d16f9df"
         },
         "32bit": {
-            "extract_dir": "x86"
+            "url": "https://github.com/NoMoreFood/Repacls/raw/v1.11.0.1/Build/Release/x86/repacls.exe",
+            "hash": "4039238c1e4c6d8978c34155db5cad078d48609988caaf7ebf96c4e592ece4b6"
         }
     },
     "bin": "repacls.exe",
@@ -17,6 +17,13 @@
         "github": "https://github.com/NoMoreFood/Repacls"
     },
     "autoupdate": {
-        "url": "https://github.com/NoMoreFood/Repacls/raw/$version/Build/Repacls.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NoMoreFood/Repacls/raw/v$version/Build/Release/x64/repacls.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/NoMoreFood/Repacls/raw/v$version/Build/Release/x86/repacls.exe"
+            }
+        }
     }
 }
