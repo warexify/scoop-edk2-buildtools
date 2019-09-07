@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.19106/sshfs-win-3.5.19106-x64.msi#/setup.msi_",
-            "hash": "32FA683AFC00D86B40772C2E371406C8CD12CBFB122829894A8122350D7B259A"
+            "hash": "32fa683afc00d86b40772c2e371406c8cd12cbfb122829894a8122350d7b259a"
         },
         "32bit": {
             "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.19106/sshfs-win-3.5.19106-x86.msi#/setup.msi_",
-            "hash": "4F59CA4E2ACC48FBB955A591A4143DC2BB569D5FB307843F6A9317487010D609"
+            "hash": "4f59ca4e2acc48fbb955a591a4143dc2bb569d5fb307843f6a9317487010d609"
         }
     },
     "depends": "winfsp-beta-np",

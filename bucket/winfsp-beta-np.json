@@ -5,7 +5,7 @@
     "version": "1.5.19192",
     "license": "GPL-3.0-only",
     "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.5B2/winfsp-1.5.19192.msi#/setup.msi_",
-    "hash": "AFE0A614BFAAC83E494E74662A031BA5AE5511C0010779E4B8DD59537371CD03",
+    "hash": "afe0a614bfaac83e494e74662a031ba5ae5511c0010779e4b8dd59537371cd03",
     "pre_install": [
         "if (-not (is_admin)) {",
         "    Write-Host 'Elevated prompt is needed for correct installation.' -f Yellow",

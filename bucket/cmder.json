@@ -5,7 +5,7 @@
     "license": "MIT",
     "persist": "config",
     "url": "https://github.com/warexify/cmder/releases/download/v1.3.12/cmder_mini.zip",
-    "hash": "F82311ABB3E2525173F1448CB1644F069894EC0A5F674BE75B62845D66135C51",
+    "hash": "f82311abb3e2525173f1448cb1644f069894ec0a5f674be75b62845d66135c51",
     "bin": "Cmder.exe",
     "shortcuts": [
         [
