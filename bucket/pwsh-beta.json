@@ -1,30 +1,30 @@
 {
     "homepage": "https://github.com/PowerShell/PowerShell",
-    "version": "7.0.0-preview.3",
+    "version": "7.0.0-preview.4",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.3/PowerShell-7.0.0-preview.3-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.4/PowerShell-7.0.0-preview.4-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "49c06e11743cfd19199d0cfb60fdbc442923a97dd8cdeca8c7c9cb392bae78a5",
-                "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
-                "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
+                "bdaaf8e652af49a24c30ee06941a162446552682e2ab1c7064a832218f84fb71",
+                "0FA9A12E670E4B7F9DB56F79D3928A41AE5CDD837A6AFEC18B55111661A1B373",
+                "3098A9B455FAF501FC96D1C0863356E813B8089B0444ED4E981EA80BE3BB1919"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.3/PowerShell-7.0.0-preview.3-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.4/PowerShell-7.0.0-preview.4-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "438de410c548f7da3feab501521fc1ceed930528d3c2c86751382b225ba835f2",
-                "61EFC6076536C650E714ACB3A622D01F83D0211EDA5CD58D6F8A4A674B497FEE",
-                "74D1E40F6133FA9DB82A43900E4C878AE18F08ACD16FB66F77FE38FA4747EB68"
+                "40768d305af4b8bedc2409ac3d30cbaf39e1a8f16daaf8adbe443cd6d1f115a0",
+                "0FA9A12E670E4B7F9DB56F79D3928A41AE5CDD837A6AFEC18B55111661A1B373",
+                "3098A9B455FAF501FC96D1C0863356E813B8089B0444ED4E981EA80BE3BB1919"
             ]
         }
     },
