@@ -1,0 +1,44 @@
+{
+    "homepage": "https://cloud.google.com/sdk/",
+    "description": "Command-line interface for Google Cloud Platform products and services.",
+    "version": "264.0.0",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-264.0.0-windows-x86_64.zip",
+            "hash": "81403004E8F9E4C0FA2E8ED96C23B6780C6FE1D00B6393542E33F94FB15F8FE3"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-264.0.0-windows-x86.zip",
+            "hash": "276E817BF52981B0C4A0450245DCD327F3AAD5E1A2D76F5F92FEE21182CDCC9C"
+        }
+    },
+    "extract_dir": "google-cloud-sdk",
+    "bin": [
+        "bin\\gcloud.cmd",
+        "bin\\gsutil.cmd",
+        "bin\\bq.cmd",
+        "bin\\docker-credential-gcloud.cmd",
+        "bin\\git-credential-gcloud.cmd"
+    ],
+    "notes": [
+        "To initialize Cloud SDK, you will need to run",
+        "",
+        "gcloud init",
+        ""
+    ],
+    "checkver": {
+        "url": "https://cloud.google.com/sdk/docs/",
+        "re": "Install the latest Cloud SDK version \\(([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86.zip"
+            }
+        }
+    }
+}
