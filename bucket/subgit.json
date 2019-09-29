@@ -1,10 +1,10 @@
 {
     "homepage": "https://subgit.com",
-    "version": "3.3.7",
+    "version": "3.3.8",
     "license": "https://subgit.com/eula",
-    "url": "https://subgit.com/files/subgit-3.3.7.zip",
-    "hash": "366f09a3b599301050e1ef5d65c77ca1ea2ad35e49a73534e233987477d5fab2",
-    "extract_dir": "subgit-3.3.7",
+    "url": "https://subgit.com/files/subgit-3.3.8.zip",
+    "hash": "d6000cbcd7383e9518209459bb0a69f285bc50aed525999c013bf47c49f67e3f",
+    "extract_dir": "subgit-3.3.8",
     "env_add_path": "bin",
     "checkver": {
         "url": "https://subgit.com/download",
