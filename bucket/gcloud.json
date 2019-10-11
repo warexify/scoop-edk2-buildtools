@@ -1,16 +1,16 @@
 {
     "homepage": "https://cloud.google.com/sdk/",
     "description": "Command-line interface for Google Cloud Platform products and services.",
-    "version": "265.0.0",
+    "version": "266.0.0",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-265.0.0-windows-x86_64.zip",
-            "hash": "3f7b03f77c771dc8dcaae9b79b0cf5b45f3e544321db80519555e78c5b61f0bc"
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-266.0.0-windows-x86_64.zip",
+            "hash": "8ff9f4c250adfb14724252616fbe45bfa719e387326cafe183dd8237ee7a1953"
         },
         "32bit": {
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-265.0.0-windows-x86.zip",
-            "hash": "e55816879fb0484c853140790a2fdbaf07424cb6f61feaa03a3d499f5ae7d3a6"
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-266.0.0-windows-x86.zip",
+            "hash": "3dcc271ce372cace1fc0f91be2cb9b2df66429c8ca43f2c8d7664f0b52ed5ab0"
         }
     },
     "extract_dir": "google-cloud-sdk",
