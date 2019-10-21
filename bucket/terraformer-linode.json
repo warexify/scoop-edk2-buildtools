@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
+    "license": "Apache-2.0",
+    "version": "0.8.4",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.4/terraformer-linode-windows-amd64.exe",
+    "hash": "FFDDDBBE1DB238D4A0BF90C3B903BED0CE08BA8EB765756F7474F82526D21CD6",
+    "bin": [
+        [
+            "terraformer-linode-windows-amd64.exe",
+            "terraformer-linode"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/GoogleCloudPlatform/terraformer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-linode-windows-amd64.exe"
+    }
+}
