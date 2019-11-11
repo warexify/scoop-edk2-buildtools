@@ -5,9 +5,9 @@
         "github": "https://github.com/fuzzitdev/fuzzit"
     },
     "license": "MIT",
-    "version": "2.4.76",
-    "url": "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.76/fuzzit_Windows_x86_64.exe#/fuzzit.exe",
-    "hash": "D6C3D8F2DC39F5169D99E13580890578581042189D7464B4777D9EAF76EB541C",
+    "version": "2.4.77",
+    "url": "https://github.com/fuzzitdev/fuzzit/releases/download/v2.4.77/fuzzit_Windows_x86_64.exe#/fuzzit.exe",
+    "hash": "1989f0f97bc1340e77ccd3edcad8305974dc460cfc2237a00c50cc679f0970da",
     "bin": "fuzzit.exe",
     "autoupdate": {
         "url": "https://github.com/fuzzitdev/fuzzit/releases/download/v$version/fuzzit_Windows_x86_64.exe#/fuzzit.exe"
