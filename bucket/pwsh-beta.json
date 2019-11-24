@@ -1,28 +1,28 @@
 {
     "homepage": "https://github.com/PowerShell/PowerShell",
-    "version": "7.0.0-preview.5",
+    "version": "7.0.0-preview.6",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.5/PowerShell-7.0.0-preview.5-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.6/PowerShell-7.0.0-preview.6-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "f344c8397fe3016cf764756e8abe4ace89898e6228f7142c176896a148b1381b",
+                "cdda77c0f8bbed57249b0abc6e31db87ba302fad0cb76faa4ad77aab74e95811",
                 "0FA9A12E670E4B7F9DB56F79D3928A41AE5CDD837A6AFEC18B55111661A1B373",
                 "3098A9B455FAF501FC96D1C0863356E813B8089B0444ED4E981EA80BE3BB1919"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.5/PowerShell-7.0.0-preview.5-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.6/PowerShell-7.0.0-preview.6-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "6cdac42e223a9f183e7c2d0158afa75320937b7b1abb55fc58dcba7fea9662ee",
+                "9ebedfba967bf5f4c77672abfc8eed0beb11568e7a56b5d5f025cd9df6d44f2a",
                 "0FA9A12E670E4B7F9DB56F79D3928A41AE5CDD837A6AFEC18B55111661A1B373",
                 "3098A9B455FAF501FC96D1C0863356E813B8089B0444ED4E981EA80BE3BB1919"
             ]
