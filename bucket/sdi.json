@@ -9,7 +9,7 @@
         "64bit": {
             "shortcuts": [
                 [
-                    "SDI_x64_R1904.exe",
+                    "SDI_x64_R1909.exe",
                     "Snappy Driver Installer"
                 ]
             ]
@@ -17,7 +17,7 @@
         "32bit": {
             "shortcuts": [
                 [
-                    "SDI_R1904.exe",
+                    "SDI_R1909.exe",
                     "Snappy Driver Installer"
                 ]
             ]

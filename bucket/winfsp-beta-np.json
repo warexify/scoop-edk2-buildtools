@@ -2,10 +2,10 @@
     "##": "Renaming .msi to .msi_ so that it will not be automatically extracted by Scoop.",
     "homepage": "http://www.secfs.net/winfsp/",
     "description": "WinFsp attempts to ease the task of writing a new file system for Windows in the same way that FUSE has done so for UNIX.",
-    "version": "1.5.19320",
+    "version": "1.5.19352",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.5B4/winfsp-1.5.19320.msi#/setup.msi_",
-    "hash": "a89e8d5cb3f0afd93a9558d61b784f3cf84afd515dcedff7a749652b085117d3",
+    "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.5B5/winfsp-1.5.19352.msi#/setup.msi_",
+    "hash": "06bc14daaa0d8a9bf7e5c363676e10ccbd2fe2b5378acd1a22b70b76694f5bee",
     "pre_install": [
         "if (-not (is_admin)) {",
         "    Write-Host 'Elevated prompt is needed for correct installation.' -f Yellow",
