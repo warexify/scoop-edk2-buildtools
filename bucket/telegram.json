@@ -1,10 +1,10 @@
 {
-    "version": "1.9.14",
+    "version": "1.9.15",
     "license": "GPL-3.0-only",
     "extract_dir": "Telegram",
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.14/tportable.1.9.14.zip",
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.15/tportable.1.9.15.beta.zip",
     "homepage": "https://telegram.org/",
-    "hash": "cb3bf5079150773a3ce89c85e00146c007bbbf5337bcae53bb8f0366725753d3",
+    "hash": "95503c49f3d27c7c2cc44a8156e96774e3e6b4ef9fd3785a1685c5717a2522de",
     "bin": "telegram.cmd",
     "persist": "tdata",
     "pre_install": "\"@start \"\"Telegram\"\" /D \"\"%~dp0\"\" \"\"%~dp0Telegram.exe\"\" %*\" | out-file \"$dir\\telegram.cmd\" -encoding oem",
@@ -19,6 +19,6 @@
         "re": "v([^\\ ]+)/tportable.([^\\ ]+).*\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$version.zip"
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$version.beta.zip"
     }
 }
