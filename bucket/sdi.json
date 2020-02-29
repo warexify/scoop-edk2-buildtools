@@ -2,14 +2,14 @@
     "homepage": "http://sdi-tool.org",
     "description": "Snappy Driver Installer",
     "license": "GPL-3.0-only",
-    "version": "1909",
-    "url": "http://sdi-tool.org/releases/SDI_R1909.zip",
-    "hash": "fc1f665b26ed9dd8443b8a64126b4c44443ed195664ac9e357feb4129b8b0543",
+    "version": "2000",
+    "url": "http://sdi-tool.org/releases/SDI_R2000.zip",
+    "hash": "e10423b2692641479297ec04cef7bd45de81ceba78e61e448fd123f3325f4cb2",
     "architecture": {
         "64bit": {
             "shortcuts": [
                 [
-                    "SDI_x64_R1909.exe",
+                    "SDI_x64_R2000.exe",
                     "Snappy Driver Installer"
                 ]
             ]
@@ -17,7 +17,7 @@
         "32bit": {
             "shortcuts": [
                 [
-                    "SDI_R1909.exe",
+                    "SDI_R2000.exe",
                     "Snappy Driver Installer"
                 ]
             ]
