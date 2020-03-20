@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.6",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.6/terraformer-openstack-windows-amd64.exe",
-    "hash": "4934baa2c72e173c0f7ea023e1ebc0416021169e0201dfa4a694b9f51e379cd2",
+    "version": "0.8.7",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.7/terraformer-openstack-windows-amd64.exe",
+    "hash": "a095fd20952332febf851a0ad4d7453954b160f5c498689aedf7ed3758526a54",
     "bin": [
         [
             "terraformer-openstack-windows-amd64.exe",
