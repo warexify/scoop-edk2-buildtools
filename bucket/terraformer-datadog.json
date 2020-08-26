@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.7",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.7/terraformer-datadog-windows-amd64.exe",
-    "hash": "760343d55dc75f9447cee9c4ccf6f1d852d25eb59bc1b104f3c4ddcc5500fb3c",
+    "version": "0.8.8",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.8/terraformer-datadog-windows-amd64.exe",
+    "hash": "3e7efe888a738d199d1238625e5e349184104edf65f61e95c1c0075590586c3d",
     "bin": [
         [
             "terraformer-datadog-windows-amd64.exe",

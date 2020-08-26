@@ -1,13 +1,13 @@
 {
-    "version": "6.4.2.667",
+    "version": "6.5.0.695",
     "description": "A cross-platform password management app to securely store passwords and other credentials in a virtual vault locked with a master password.",
     "homepage": "https://www.enpass.io",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.enpass.io/legal/"
     },
-    "url": "https://dl.enpass.io/beta/windows/setup/6.4.2.667/Enpass-setup.exe",
-    "hash": "8a894d9f682016a0f532dea30db9029da4a6aa1278f8194f86e0aefdd26967cc",
+    "url": "https://dl.enpass.io/beta/windows/setup/6.5.0.695/Enpass-setup.exe",
+    "hash": "bb67602a3b9e7e3ae6640238983ed3b3c019a73a08143e7ec18e62101aaecd2c",
     "installer": {
         "script": [
             "Expand-DarkArchive \"$dir\\$fname\" \"$dir\\tmp\" -Removal",
