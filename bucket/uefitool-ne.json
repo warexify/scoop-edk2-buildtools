@@ -3,10 +3,6 @@
     "description": "UEFI firmware image viewer and editor.",
     "version": "t20200508",
     "license": "BSD-2-Clause",
-    "checkver": {
-        "url": "https://github.com/LongSoft/UEFITool/releases.atom",
-        "re": "\\/releases\\/tag\\/(?:v)?([\\d.]+-[a-z]+[\\d.]+)"
-    },
     "url": [
         "https://github.com/LongSoft/UEFITool/releases/download/t20200508/UEFIExtract_NE_A57_win32.zip",
         "https://github.com/LongSoft/UEFITool/releases/download/t20200508/UEFIFind_NE_A57_win32.zip",
