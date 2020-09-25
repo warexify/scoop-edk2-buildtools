@@ -5,15 +5,15 @@
         "identifier": "Proprietary",
         "url": "https://developers.cloudflare.com/argo-tunnel/license"
     },
-    "version": "2020.9.1",
+    "version": "2020.9.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2020.9.1/cloudflared-windows-amd64.exe",
-            "hash": "dae463405f85cfa43ffb1f47757c5b25d0a102084b7681eecffe164b5ca37a9b"
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2020.9.3/cloudflared-windows-amd64.exe",
+            "hash": "96e468f06660750a2ee757276b32e02ac3ed4ff01e02e13d5e192b421890d61d"
         },
         "32bit": {
-            "url": "https://github.com/cloudflare/cloudflared/releases/download/2020.9.1/cloudflared-windows-386.exe",
-            "hash": "d3cd0c5846b6c38751e6ac388d3413d8e450af97dc046b214e389759bf773392"
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2020.9.3/cloudflared-windows-386.exe",
+            "hash": "3cd6663cca289263b3e0485fbc08ee5ccd2494a37ea2b36af2db6bbe36146067"
         }
     },
     "bin": "cloudflared.exe",
