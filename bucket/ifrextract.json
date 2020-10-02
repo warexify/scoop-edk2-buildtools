@@ -12,7 +12,7 @@
         "585FD31A286A48AC10ADD4D49B96358B5D462C88756811358799402C71A72C75"
     ],
     "bin": [
-        "ifrextractor.exe",
+        "ifrextract.exe",
         "IRFExtractor.exe"
     ],
     "shortcuts": [
@@ -20,5 +20,11 @@
             "IRFExtractor.exe",
             "IRFExtractor"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/LongSoft/Universal-IFR-Extractor"
+    },
+    "autoupdate": {
+        "url": "https://github.com/LongSoft/Universal-IFR-Extractor/releases/download/v$version/ifrextract_$version_win.zip"
+    }
 }
