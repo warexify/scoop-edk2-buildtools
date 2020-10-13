@@ -5,11 +5,11 @@
     "version": "1.3.4.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/warexify/scoop-edk2-buildtools/releases/download/v1.3.4.0/BOOTICEx64.exe",
+            "url": "https://github.com/warexify/scoop-edk2-buildtools/releases/download/v1.3.4.0/BOOTICEx64.exe#/BOOTICE.exe",
             "hash": "E1CB831AC9213B52066F934BA0FA80EA8A9DE48932452D4142FA085A2BA24FC2"
         },
         "32bit": {
-            "url": "https://github.com/warexify/scoop-edk2-buildtools/releases/download/v1.3.4.0/BOOTICEx86.exe",
+            "url": "https://github.com/warexify/scoop-edk2-buildtools/releases/download/v1.3.4.0/BOOTICEx86.exe#/BOOTICE.exe",
             "hash": "759CF1DAD6E1C93E205EF2F4C913C07F74ED469873D9567DF00619058252E2EC"
         }
     },
