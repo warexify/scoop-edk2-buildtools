@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/gsamokovarov/jump",
+    "version": "0.30.1",
+    "license": "MIT",
+    "url": "https://github.com/gsamokovarov/jump/releases/download/v0.30.1/jump.exe",
+    "hash": "9D491D0B35A3E9AA86AFFBA02D181915D5B9EF0340818D5C6D1EF0145DA974E7",
+    "bin": "jump.exe",
+    "checkver": {
+        "github": "https://github.com/gsamokovarov/jump"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gsamokovarov/jump/releases/download/v$version/jump.exe"
+    }
+}
