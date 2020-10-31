@@ -1,28 +1,28 @@
 {
     "homepage": "https://github.com/PowerShell/PowerShell",
-    "version": "7.1.0-rc.1",
+    "version": "7.1.0-rc.2",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0-rc.1/PowerShell-7.1.0-rc.1-win-x64.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0-rc.2/PowerShell-7.1.0-rc.2-win-x64.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "c9b4b675b8cc48281a42440bb1adb40fd28890ae64ac5a5168269f98c7321808",
+                "b8496cc53ebf5651cc31006aa5a8e85a83ec226dfd22a963f291f41270307194",
                 "0FA9A12E670E4B7F9DB56F79D3928A41AE5CDD837A6AFEC18B55111661A1B373",
                 "3098A9B455FAF501FC96D1C0863356E813B8089B0444ED4E981EA80BE3BB1919"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0-rc.1/PowerShell-7.1.0-rc.1-win-x86.zip",
+                "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0-rc.2/PowerShell-7.1.0-rc.2-win-x86.zip",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-install-context.reg",
                 "https://raw.githubusercontent.com/warexify/scoop-edk2-buildtools/master/scripts/pwsh-uninstall-context.reg"
             ],
             "hash": [
-                "fd09421a02c598893108eb6b6cf4e742d221f99ab230c425c2dfa4b0f952025e",
+                "dbd2bf04bfad2bb3a184b778715e8ab0230be8a0f84c4995b651c744a3769adb",
                 "0FA9A12E670E4B7F9DB56F79D3928A41AE5CDD837A6AFEC18B55111661A1B373",
                 "3098A9B455FAF501FC96D1C0863356E813B8089B0444ED4E981EA80BE3BB1919"
             ]
