@@ -1,30 +1,30 @@
 {
     "homepage": "https://github.com/LongSoft/UEFITool/",
     "description": "UEFI firmware image viewer and editor.",
-    "version": "t20200508",
+    "version": "A58",
     "license": "BSD-2-Clause",
     "url": [
-        "https://github.com/LongSoft/UEFITool/releases/download/t20200508/UEFIExtract_NE_A57_win32.zip",
-        "https://github.com/LongSoft/UEFITool/releases/download/t20200508/UEFIFind_NE_A57_win32.zip",
-        "https://github.com/LongSoft/UEFITool/releases/download/t20200508/UEFITool_NE_A57_win32.zip"
+        "https://github.com/LongSoft/UEFITool/releases/download/A58/UEFIExtract_NE_A58_win32.zip",
+        "https://github.com/LongSoft/UEFITool/releases/download/A58/UEFIFind_NE_A58_win32.zip",
+        "https://github.com/LongSoft/UEFITool/releases/download/A58/UEFITool_NE_A58_win32.zip"
     ],
     "hash": [
-        "E29AFCE9F2AAB210317BC4581B2F72223B9042E73B528A1B6E2D92E50AD905C9",
-        "E62E7848411BD4BB4D6151CDEBE9C0772FB30CF221FB49B79EAA5478B1C1EDCE",
-        "E3A81E047F2719AF7B31586270EE60DEAA159D8BE58E13F08D8B3411636AC570"
+        "11E8E6C9B2B0B4E9FD85FD40F167D765FE93A4211D0343667A59373FC75FB56F",
+        "E14A2B086CD93D361E77F1811D61F36A58EDF08F2644951ACA9A6535475A5345",
+        "1003CDBAAAA3BAF8E9F8914094EFB086B009D16E9BD491E518AE3CD7B405E03B"
     ],
     "bin": [
         "UEFIExtract.exe",
         "UEFIFind.exe",
         [
             "UEFITool.exe",
-            "UEFITool_NE_A57"
+            "UEFITool_NE_A58"
         ]
     ],
     "shortcuts": [
         [
             "UEFITool.exe",
-            "UEFITool_NE_A57"
+            "UEFITool_NE_A58"
         ]
     ]
 }
