@@ -5,9 +5,9 @@
         "identifier": "Intel-ACPI,GPL-2.0-only,BSD-3-Clause",
         "url": "https://acpica.org/sites/acpica/files/licensing.txt"
     },
-    "version": "20200925",
-    "url": "https://acpica.org/sites/acpica/files/iasl-win-20200925.zip",
-    "hash": "0e962bf66cf8a4c3b6e99855e559d0581925847b3816ab5e4a1238e816654bb0",
+    "version": "20201113",
+    "url": "https://acpica.org/sites/acpica/files/iasl-win-20201113.zip",
+    "hash": "0b1f4fabf5c43b97e8a8ed492f6a19e6182b9cc94ec4b60b9524e7bbe71d0323",
     "bin": [
         "acpibin.exe",
         "acpidump.exe",
