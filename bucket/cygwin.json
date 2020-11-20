@@ -50,7 +50,8 @@
             "--quiet-mode",
             "--local-package-dir \"$persist_dir\\packages\"",
             "--root \"$persist_dir\\root\"",
-            "--site \"https://mirror.yandex.ru/mirrors/ftp.cygwin.com/\""
+            "--site \"https://mirror.yandex.ru/mirrors/ftp.cygwin.com/\"",
+            "--packages binutils,bison,flex,gcc-g++,git,libgmp-devel,libiconv,liblz4_1liblz4-devel,libmpfr-devel,libopenssl,libuuid-devel,make,openssh,openssl-devel,python3-setuptools,python3,subversion,util-linux,wget"
         ],
         "keep": true
     },
