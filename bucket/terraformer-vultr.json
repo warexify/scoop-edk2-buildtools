@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.9",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.9/terraformer-vultr-windows-amd64.exe#/terraformer-vultr.exe",
-    "hash": "76a52305d36c1891659fe0b3b3d990acb2f0010d6d9abe7c28997932d3c576bf",
+    "version": "0.8.10",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.10/terraformer-vultr-windows-amd64.exe#/terraformer-vultr.exe",
+    "hash": "97ca1c57635f68e6450de6d123e955ac513cf23155d971b3109819cfd01157aa",
     "bin": "terraformer-vultr.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"
