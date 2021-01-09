@@ -20,11 +20,5 @@
             "IRFExtractor.exe",
             "IRFExtractor"
         ]
-    ],
-    "checkver": {
-        "github": "https://github.com/LongSoft/Universal-IFR-Extractor"
-    },
-    "autoupdate": {
-        "url": "https://github.com/LongSoft/Universal-IFR-Extractor/releases/download/v$version/ifrextract_$version_win.zip"
-    }
+    ]
 }
