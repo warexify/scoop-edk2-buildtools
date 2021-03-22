@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.freetype.org/ttfautohint",
+    "description": "Font auto-hinter",
+    "license": "GPL-2.0-only",
+    "version": "1.8.3",
+    "url": "https://sourceforge.net/projects/freetype/files/ttfautohint/1.8.3/ttfautohint-1.8.3-win32.7z",
+    "hash": "E0F7D349BD4ED5FC1C2596635D92FEBA2B59EF0C6C7B7E17245832C92EB4CD60",
+    "bin": "ttfautohint.exe",
+    "shortcuts": [
+        [
+            "ttfautohintGUI.exe",
+            "ttfautohintGUI"
+        ]
+    ]
+}
