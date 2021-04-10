@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.11",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.11/terraformer-logzio-windows-amd64.exe#/terraformer-logzio.exe",
-    "hash": "7dec69f28a32ecd97dee55809495bb016daf48ff95ae1122bdb2aa7af08fe3f3",
+    "version": "0.8.12",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.12/terraformer-logzio-windows-amd64.exe#/terraformer-logzio.exe",
+    "hash": "b3bd0b029388cd6b0d95b9ef9845bdfcfff881eeda91b7c9eecb518b56646a57",
     "bin": "terraformer-logzio.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"

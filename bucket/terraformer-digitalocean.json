@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.11",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.11/terraformer-digitalocean-windows-amd64.exe#/terraformer-digitalocean.exe",
-    "hash": "91698b3153f08a5a9b11e67796cbc6d2fb1c4fd6a4105cdc433cc84241b2ec19",
+    "version": "0.8.12",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.12/terraformer-digitalocean-windows-amd64.exe#/terraformer-digitalocean.exe",
+    "hash": "2c3bcf6486df56554badccf29dd59d8a2891e52d87e19d68efd6a855fbc8fdaa",
     "bin": "terraformer-digitalocean.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"

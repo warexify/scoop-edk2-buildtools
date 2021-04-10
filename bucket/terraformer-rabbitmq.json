@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.11",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.11/terraformer-rabbitmq-windows-amd64.exe#/terraformer-rabbitmq.exe",
-    "hash": "d0ff7599da9c80f4843bdad80a6959a8ce0e3d30bbfc9bb5024ee85b52d10e7a",
+    "version": "0.8.12",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.12/terraformer-rabbitmq-windows-amd64.exe#/terraformer-rabbitmq.exe",
+    "hash": "2bccf5e5a285a90b340a8e4c8d266a10e7e674e4bed166c001ea682edaa95815",
     "bin": "terraformer-rabbitmq.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"
