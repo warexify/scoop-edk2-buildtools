@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.12",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.12/terraformer-fastly-windows-amd64.exe#/terraformer-fastly.exe",
-    "hash": "4f1e0827ea5d19698668f19c72e0a346670ac447d08011d6bfa35f540317e9c1",
+    "version": "0.8.13",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.13/terraformer-fastly-windows-amd64.exe#/terraformer-fastly.exe",
+    "hash": "a87459fc7ca2399bbee03d3251f484199ed5c3dcef11631098ce7b02463b435c",
     "bin": "terraformer-fastly.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"

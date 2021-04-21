@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.12",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.12/terraformer-github-windows-amd64.exe#/terraformer-github.exe",
-    "hash": "23691df3077414604cd21b7c7aa2fa47fdbe2197c46903b0edb9a9ff41c7436a",
+    "version": "0.8.13",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.13/terraformer-github-windows-amd64.exe#/terraformer-github.exe",
+    "hash": "04c464b860af17471940bc53493bb94c87cdb21f33ca8217f390f12b26e39718",
     "bin": "terraformer-github.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"
