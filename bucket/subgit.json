@@ -18,21 +18,15 @@
     "persist": "daemon-shared",
     "pre_install": [
         "$root=(scoop which subgit | split-path -res -par | split-path -par)",
-        "Write-Host \"To uninstall service type:
-\"",
-        "Write-Host \"#sc.exe stop \"SubgitService\"\"
-",
-        "Write-Host \"#sc.exe delete \"SubgitService\"\"
-"
+        "Write-Host \"To uninstall service type:\"",
+        "Write-Host \"#sc.exe stop \"SubgitService\"\"",
+        "Write-Host \"#sc.exe delete \"SubgitService\"\""
     ],
     "post_install": [
         "$root=(scoop which subgit | split-path -res -par | split-path -par)",
-        "Write-Host \"To install service type:
-\"",
-        "Write-Host \"#sc.exe create \"SubgitService\" type= own start= auto error= normal binpath= \"$root\\bin\\subgit.bat daemon start $root\\daemon-shared\" displayname= \"Subgit Service\"\"
-",
-        "Write-Host \"#sc.exe start \"SubgitService\"\"
-"
+        "Write-Host \"To install service type:\"",
+        "Write-Host \"#sc.exe create \"SubgitService\" type= own start= auto error= normal binpath= \"$root\\bin\\subgit.bat daemon start $root\\daemon-shared\" displayname= \"Subgit Service\"\"",
+        "Write-Host \"#sc.exe start \"SubgitService\"\""
     ],
     "notes": "Yay."
 }
