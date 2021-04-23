@@ -1,8 +1,11 @@
 {
-    "homepage": "https://www.bulkrenameutility.co.uk/",
-    "description": "The Free File Renaming Utility for Windows.",
-    "license": "Shareware",
     "version": "1.3.3.0",
+    "description": "File renaming software for Windows.",
+    "homepage": "https://www.bulkrenameutility.co.uk/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.bulkrenameutility.co.uk/License.php"
+    },
     "architecture": {
         "64bit": {
             "url": "https://www.bulkrenameutility.co.uk/Downloads/BRC_Unicode_64.zip",
