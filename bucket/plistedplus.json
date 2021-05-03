@@ -4,7 +4,7 @@
     "license": "Public Domain",
     "version": "1.0.52",
     "url": "https://github.com/ic005k/PlistEDPlus/releases/download/1.0.52/PlistEDPlus-Win64.zip",
-    "hash": "9696b013801231ed7302abca39033419668c968d08a5a926421f2a26c12ae902",
+    "hash": "9696B013801231ED7302ABCA39033419668C968D08A5A926421F2A26C12AE902",
     "extract_dir": "PlistEDPlus-Win64",
     "bin": "PlistEDPlus.exe",
     "shortcuts": [
