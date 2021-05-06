@@ -1,12 +1,12 @@
 {
-    "version": "0.8.3",
+    "version": "0.8.4",
     "description": "A simple and powerful SSH keys manager",
     "homepage": "https://github.com/TimothyYe/skm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TimothyYe/skm/releases/download/v0.8.3/skm-win64-0.8.3.tar.gz",
-            "hash": "27A042B1A5D9886958CA7A5B5D61C3F9EB05EFAA88943FEF0BF54F2BCCC3C858"
+            "url": "https://github.com/TimothyYe/skm/releases/download/v0.8.4/skm-win64-0.8.4.tar.gz",
+            "hash": "4c66032bd0ce62cdb6ef716c0bf0600d7f0f25feb81846f36297575f6ca4347b"
         }
     },
     "bin": "skm.exe",
