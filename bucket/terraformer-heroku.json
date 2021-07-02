@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.14",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.14/terraformer-heroku-windows-amd64.exe#/terraformer-heroku.exe",
-    "hash": "106f9f22e1d311d9bf048314e2fa4c83572b61c0f5b1c92310405b1ddca8504a",
+    "version": "0.8.15",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.15/terraformer-heroku-windows-amd64.exe#/terraformer-heroku.exe",
+    "hash": "301e47f91b9344a2762561de2bdaa2153ddc9a0d997683d5e6572fcf1cc296b3",
     "bin": "terraformer-heroku.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"

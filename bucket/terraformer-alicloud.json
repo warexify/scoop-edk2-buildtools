@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.14",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.14/terraformer-alicloud-windows-amd64.exe#/terraformer-alicloud.exe",
-    "hash": "d0f92185b10f6a68a156df134f579ad8b065348259421ef7c4c64e2dd7fff2b5",
+    "version": "0.8.15",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.15/terraformer-alicloud-windows-amd64.exe#/terraformer-alicloud.exe",
+    "hash": "d50271c13dc38bcfd8bd41bfb23ffe71b9003da74aa047c5bd0951507d04c1d0",
     "bin": "terraformer-alicloud.exe",
     "checkver": {
         "github": "https://github.com/GoogleCloudPlatform/terraformer"
