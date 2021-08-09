@@ -7,7 +7,7 @@
     "bin": "CodeFormatter.exe",
     "checkver": {
         "url": "https://github.com/dotnet/codeformatter/releases",
-        "re": "v(?<version>[^\\ ]+)/CodeFormatter.zip"
+        "regex": "v(?<version>[^\\ ]+)/CodeFormatter.zip"
     },
     "autoupdate": {
         "url": "https://github.com/dotnet/codeformatter/releases/download/v$matchVersion/CodeFormatter.zip"

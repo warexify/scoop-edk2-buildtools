@@ -25,7 +25,7 @@
     },
     "checkver": {
         "url": "http://sdi-tool.org/releases",
-        "re": "SDI_R(?<version>[\\d]+).zip",
+        "regex": "SDI_R(?<version>[\\d]+).zip",
         "reverse": true
     },
     "autoupdate": {

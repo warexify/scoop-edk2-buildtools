@@ -8,7 +8,7 @@
     "env_add_path": "bin",
     "checkver": {
         "url": "https://subgit.com/download",
-        "re": "(?<version>\\d\\.\\d\\.\\d)",
+        "regex": "(?<version>\\d\\.\\d\\.\\d)",
         "reverse": false
     },
     "autoupdate": {

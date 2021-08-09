@@ -32,7 +32,7 @@
     },
     "checkver": {
         "url": "https://nasm.us/doc/nasmdocc.html",
-        "re": "version ([\\d.]+)"
+        "regex": "version ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

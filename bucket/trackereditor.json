@@ -8,7 +8,7 @@
     "bin": "trackereditor.exe",
     "checkver": {
         "url": "https://github.com/GerryFerdinandus/bittorrent-tracker-editor/releases.atom",
-        "re": "\\/releases\\/tag\\/(?<version>[\\d\\w.]+)"
+        "regex": "\\/releases\\/tag\\/(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/GerryFerdinandus/bittorrent-tracker-editor/releases/download/$version/trackereditor_win32.zip"
