@@ -1,7 +1,7 @@
 {
-    "homepage": "https://drmemory.org/",
-    "description": "Memory Debugger for Windows, Linux, Mac, and Android",
     "version": "1.11.17856-1",
+    "description": "Memory Debugger for Windows, Linux, Mac, and Android",
+    "homepage": "https://drmemory.org/",
     "hash": "CFB041147891926D0AF50E360DD355D15714D2145E424776D1C0CC3DF4365DCB",
     "url": "https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.0.17856/DrMemory-Windows-1.11.17856-1.zip",
     "extract_dir": "DrMemory-Windows-1.11.17856-1",

@@ -1,8 +1,8 @@
 {
-    "homepage": "http://sdi-tool.org",
-    "description": "Snappy Driver Installer",
-    "license": "GPL-3.0-only",
     "version": "2102",
+    "description": "Snappy Driver Installer",
+    "homepage": "http://sdi-tool.org",
+    "license": "GPL-3.0-only",
     "url": "http://sdi-tool.org/releases/SDI_R2102.zip",
     "hash": "f95d11ffa938cd2745b4cc881c378476a6a205837a13b417ef5a4a2654e111f3",
     "architecture": {

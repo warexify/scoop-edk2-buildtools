@@ -1,6 +1,6 @@
 {
-    "homepage": "https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool",
     "version": "1.8.3",
+    "homepage": "https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool",
     "license": "MIT",
     "url": "https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool/raw/master/IntuneWinAppUtil.exe",
     "hash": "83DAB0354422525EB0E73FE3B9395EFB34426A6CC68EF8670722939593CB7120",

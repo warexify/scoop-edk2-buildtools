@@ -1,7 +1,7 @@
 {
-    "homepage": "http://winfig.com",
-    "description": "Vector graphics editor application",
     "version": "7.8",
+    "description": "Vector graphics editor application",
+    "homepage": "http://winfig.com",
     "extract_dir": "WinFIG",
     "url": "http://www.winfig.com/WinFIG-Dateien/WinFIG78.zip",
     "hash": "F18B8F22A13FF102ADD308128C9231DD1940912A28EB12DA57E1EC597E15B700",

@@ -1,13 +1,11 @@
 {
+    "version": "0.8.15",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "version": "0.8.15",
     "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.15/terraformer-cloudflare-windows-amd64.exe#/terraformer-cloudflare.exe",
     "hash": "7c0b1a0e467a649e4a7d5d069ecb50d70c5fa345dc4e29a091553f39092cbb2b",
     "bin": "terraformer-cloudflare.exe",
-    "checkver": {
-        "github": "https://github.com/GoogleCloudPlatform/terraformer"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$version/terraformer-cloudflare-windows-amd64.exe#/terraformer-cloudflare.exe"
     }

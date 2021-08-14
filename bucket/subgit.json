@@ -1,7 +1,8 @@
 {
-    "homepage": "https://subgit.com",
     "version": "3.3.1",
+    "homepage": "https://subgit.com",
     "license": "https://subgit.com/eula",
+    "notes": "Yay.",
     "url": "https://subgit.com/files/subgit-3.3.1.zip",
     "hash": "813ad35367279560885f7ffe32e708bd2019a577125b5b58a325b690b21ba5c5",
     "extract_dir": "subgit-3.3.1",
@@ -27,6 +28,5 @@
         "Write-Host \"To install service type:\"",
         "Write-Host \"#sc.exe create \"SubgitService\" type= own start= auto error= normal binpath= \"$root\\bin\\subgit.bat daemon start $root\\daemon-shared\" displayname= \"Subgit Service\"\"",
         "Write-Host \"#sc.exe start \"SubgitService\"\""
-    ],
-    "notes": "Yay."
+    ]
 }
