@@ -1,9 +1,9 @@
 {
-    "version": "0.8.16",
+    "version": "0.8.17",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.16/terraformer-newrelic-windows-amd64.exe#/terraformer-newrelic.exe",
-    "hash": "38cf6c44c6e8bc6e3f7d8745df084b505b960f5f7123acbae8fc769105121c75",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.17/terraformer-newrelic-windows-amd64.exe#/terraformer-newrelic.exe",
+    "hash": "e29de0a17ded21fb2aac00b657d0777556062c89decbf80da48bbe3c3bd00434",
     "bin": "terraformer-newrelic.exe",
     "checkver": "github",
     "autoupdate": {
