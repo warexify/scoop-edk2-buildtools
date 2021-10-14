@@ -1,10 +1,10 @@
 {
-    "version": "1.0.64",
+    "version": "1.0.72",
     "description": "Open source cross-platform lightweight Plist file editor",
     "homepage": "https://github.com/ic005k/PlistEDPlus",
     "license": "Public Domain",
-    "url": "https://github.com/ic005k/PlistEDPlus/releases/download/1.0.64/PlistEDPlus-Win64.zip",
-    "hash": "d4bd5d7d85ec9b870ac9d464b5c014b20dc0577d5e67a91e1b87341774b28ba2",
+    "url": "https://github.com/ic005k/PlistEDPlus/releases/download/1.0.72/PlistEDPlus-Win64.zip",
+    "hash": "0388fd846028d532c0a033121e427330a43b055e7cb21cb0a2cdcd1c44ad7775",
     "extract_dir": "PlistEDPlus-Win64",
     "bin": "PlistEDPlus.exe",
     "shortcuts": [
