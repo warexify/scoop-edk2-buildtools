@@ -1,9 +1,9 @@
 {
-    "version": "0.8.17",
+    "version": "0.8.18",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.17/terraformer-kubernetes-windows-amd64.exe#/terraformer-kubernetes.exe",
-    "hash": "f303d1841e37cf7000344da78e3e61f2e7714d500ca8a08d19c069956f5e8896",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-kubernetes-windows-amd64.exe#/terraformer-kubernetes.exe",
+    "hash": "c14e8c837bcbd4013e7576f70a9174e534fc8e54a24773dcec7335161533d306",
     "bin": "terraformer-kubernetes.exe",
     "checkver": "github",
     "autoupdate": {
