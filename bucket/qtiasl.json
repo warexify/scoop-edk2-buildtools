@@ -1,10 +1,10 @@
 {
-    "version": "1.0.70",
+    "version": "1.0.71",
     "description": "Cross-platform DSDT Editor",
     "homepage": "https://github.com/ic005k/QtiASL",
     "license": "Public Domain",
-    "url": "https://github.com/ic005k/QtiASL/releases/download/1.0.70/QtiASL-Win64.zip",
-    "hash": "5cc5c1a583d5fa66bc58f03ae86dc0255ba6370d78b42b4628682e1d6f4526e5",
+    "url": "https://github.com/ic005k/QtiASL/releases/download/1.0.71/QtiASL-Win64.zip",
+    "hash": "eef573898667339643af66ed5f34d5c5c0d810c3d67b175f54bce374361c3027",
     "extract_dir": "QtiASL-Win64",
     "bin": [
         "QtiASL.exe",
