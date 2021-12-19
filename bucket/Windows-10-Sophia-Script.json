@@ -1,5 +1,5 @@
 {
-    "version": "6.0.8",
+    "version": "6.0.10",
     "description": "A powerful PowerShell module for fine-tuning and tweaking Windows 10.",
     "homepage": "https://github.com/farag2/Windows-10-Sophia-Script",
     "license": {
@@ -10,9 +10,9 @@
         "Default setup could be run via 'Win10-Init' inside powershell or cmd.",
         "For advanced usage visit: https://github.com/farag2/Windows-10-Sophia-Script#how-to-use"
     ],
-    "url": "https://github.com/farag2/Windows-10-Sophia-Script/releases/download/6.0.8/Sophia.Script.for.Windows.11.v6.0.8.PowerShell.7.zip",
-    "hash": "a8cd7513ee2490893b49f88a00fb00533b00229240e75e867b791a5884c34dab",
-    "extract_dir": "Sophia Script for Windows 11 v6.0.8 PowerShell 7",
+    "url": "https://github.com/farag2/Windows-10-Sophia-Script/releases/download/6.0.10/Sophia.Script.for.Windows.11.v6.0.10.PowerShell.7.zip",
+    "hash": "f9b13312af23a971a8ac607f2a553c80fe7b2aab61fdbe9a94d2b5de2d74779a",
+    "extract_dir": "Sophia Script for Windows 11 v6.0.10 PowerShell 7",
     "psmodule": {
         "name": "Sophia"
     },
