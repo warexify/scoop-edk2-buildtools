@@ -1,10 +1,10 @@
 {
-    "version": "20220049",
+    "version": "20220055",
     "description": "OpenCore Auxiliary Tools OpenCore Configurator OCAT",
     "homepage": "https://github.com/ic005k/QtOpenCoreConfig",
     "license": "Public Domain",
-    "url": "https://github.com/ic005k/QtOpenCoreConfig/releases/download/20220049/OCAT-Win64.zip",
-    "hash": "eb8af1bccd67b8c36a2a10058fd872033b2073df138d597e8f90ae4072830091",
+    "url": "https://github.com/ic005k/QtOpenCoreConfig/releases/download/20220055/OCAT-Win64.zip",
+    "hash": "6f2ee72fc478ba6975705d18b4318fc4b9ee45694bd74905aa696bbde2873703",
     "extract_dir": "OCAT-Win64",
     "bin": [
         "OCAuxiliaryTools.exe",
