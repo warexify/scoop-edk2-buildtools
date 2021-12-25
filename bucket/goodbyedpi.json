@@ -1,5 +1,5 @@
 {
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Passive Deep Packet Inspection blocker and Active DPI circumvention utility",
     "homepage": "https://github.com/ValdikSS/GoodbyeDPI",
     "license": "Apache-2.0",
@@ -15,14 +15,14 @@
         "sudo Stop-Service GoodbyeDPI",
         "sudo sc.exe delete GoodbyeDPI 1>$null"
     ],
-    "url": "https://github.com/ValdikSS/GoodbyeDPI/releases/download/0.1.6/goodbyedpi-0.1.6.zip",
-    "hash": "2B8124AAD279860FB490447708357CFE695253F828400032779E6DA93F6E0C95",
+    "url": "https://github.com/ValdikSS/GoodbyeDPI/releases/download/0.1.7/goodbyedpi-0.1.7.zip",
+    "hash": "b9c7b43c6467b763efb4a0e2a0be0c66e44a4df3d614cf6dfa0ecb2d2d0aee7b",
     "architecture": {
         "64bit": {
-            "extract_dir": "goodbyedpi-0.1.6/x86_64"
+            "extract_dir": "goodbyedpi-0.1.7/x86_64"
         },
         "32bit": {
-            "extract_dir": "goodbyedpi-0.1.6/x86"
+            "extract_dir": "goodbyedpi-0.1.7/x86"
         }
     },
     "bin": "goodbyedpi.exe",
