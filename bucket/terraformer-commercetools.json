@@ -1,9 +1,9 @@
 {
-    "version": "0.8.18",
+    "version": "0.8.19",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.18/terraformer-commercetools-windows-amd64.exe#/terraformer-commercetools.exe",
-    "hash": "a289545189d7a49f37346e0c07de6f534b3b3f0ed1ff72f32d8a7ecfcd409a04",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.19/terraformer-commercetools-windows-amd64.exe#/terraformer-commercetools.exe",
+    "hash": "aae3c9ca39f1e68ebd8e2b01dec4a3f6bb1087f6c48aadc2860a6b8d84d204a3",
     "bin": "terraformer-commercetools.exe",
     "checkver": "github",
     "autoupdate": {
