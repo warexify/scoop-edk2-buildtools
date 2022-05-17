@@ -1,19 +1,4 @@
-// Configure PSScriptAnalyzer settings
 {
-    "[powershell]": {
-        "editor.formatOnSave": true
-    },
-    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
-    "powershell.codeFormatting.alignPropertyValuePairs": true,
-    "powershell.codeFormatting.ignoreOneLineBlock": true,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/tmp": true
-    },
     "editor.bracketPairColorization.enabled": true,
     "json.schemas": [
         {
