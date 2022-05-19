@@ -1,10 +1,10 @@
 {
-    "version": "1.2.45",
+    "version": "1.2.46",
     "description": "Open source cross-platform lightweight Plist file editor",
     "homepage": "https://github.com/ic005k/Xplist",
     "license": "Public Domain",
-    "url": "https://github.com/ic005k/Xplist/releases/download/1.2.45/Xplist-Win64.zip",
-    "hash": "51cd2eeceedf55ace5746dba636085844e03fc8fae00a2154bb567d9f37fd031",
+    "url": "https://github.com/ic005k/Xplist/releases/download/1.2.46/Xplist-Win64.zip",
+    "hash": "d81b7aa805ed9dfa8e9acd1aa3f7af9aadef1f4c15b9a44bb7e568bc1248f18f",
     "extract_dir": "Xplist-Win64",
     "bin": "Xplist.exe",
     "shortcuts": [
