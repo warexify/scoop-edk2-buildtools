@@ -1,10 +1,10 @@
 {
-    "version": "1.1.65",
+    "version": "1.1.66",
     "description": "Cross-platform DSDT Editor",
     "homepage": "https://github.com/ic005k/Xiasl",
     "license": "Public Domain",
-    "url": "https://github.com/ic005k/Xiasl/releases/download/1.1.65/Xiasl-Win64.zip",
-    "hash": "d313fadeefd54bef8a9bbd4046e1b0b5d40785a6d2a2470709a00f5acacce72a",
+    "url": "https://github.com/ic005k/Xiasl/releases/download/1.1.66/Xiasl-Win64.zip",
+    "hash": "0665a180c8ddb5d58e268b1a80a7f5c88bd6c6f2f18a419d1edbc2449345961b",
     "extract_dir": "Xiasl-Win64",
     "bin": [
         "Xiasl.exe",
