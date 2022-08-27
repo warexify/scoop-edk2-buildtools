@@ -1,30 +1,30 @@
 {
-    "version": "A58",
+    "version": "A60",
     "description": "UEFI firmware image viewer and editor.",
     "homepage": "https://github.com/LongSoft/UEFITool/",
     "license": "BSD-2-Clause",
     "url": [
-        "https://github.com/LongSoft/UEFITool/releases/download/A58/UEFIExtract_NE_A58_win32.zip",
-        "https://github.com/LongSoft/UEFITool/releases/download/A58/UEFIFind_NE_A58_win32.zip",
-        "https://github.com/LongSoft/UEFITool/releases/download/A58/UEFITool_NE_A58_win32.zip"
+        "https://github.com/LongSoft/UEFITool/releases/download/A60/UEFIExtract_NE_A60_win32.zip",
+        "https://github.com/LongSoft/UEFITool/releases/download/A60/UEFIFind_NE_A60_win32.zip",
+        "https://github.com/LongSoft/UEFITool/releases/download/A60/UEFITool_NE_A60_win32.zip"
     ],
     "hash": [
-        "11E8E6C9B2B0B4E9FD85FD40F167D765FE93A4211D0343667A59373FC75FB56F",
-        "E14A2B086CD93D361E77F1811D61F36A58EDF08F2644951ACA9A6535475A5345",
-        "1003CDBAAAA3BAF8E9F8914094EFB086B009D16E9BD491E518AE3CD7B405E03B"
+        "c5b1ded7ba65fa923e6d87a2b1f02a357167f0bc68acbaeea03443aaf61e91b4",
+        "b6889d2ef2fd2441a0b1c4d4b68f48d39934c5f4fd1e24836defc947e7a49d6b",
+        "d42012665433f649c5f1e05b2ac3b6d3a83ad6fed79a728e6b852c0861aabaef"
     ],
     "bin": [
         "UEFIExtract.exe",
         "UEFIFind.exe",
         [
             "UEFITool.exe",
-            "UEFITool_NE_A58"
+            "UEFITool_NE_A60"
         ]
     ],
     "shortcuts": [
         [
             "UEFITool.exe",
-            "UEFITool_NE_A58"
+            "UEFITool_NE_A60"
         ]
     ]
 }
