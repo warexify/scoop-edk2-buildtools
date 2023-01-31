@@ -1,15 +1,15 @@
 {
-    "version": "1.2.0",
+    "version": "1.5.1",
     "description": "Rust utility to extract UEFI IFR data into human-readable text.",
     "homepage": "https://github.com/LongSoft/IFRExtractor-RS/",
     "license": "BSD-2-Clause",
-    "url": "https://github.com/LongSoft/IFRExtractor-RS/releases/download/v1.2.0/IFRExtractor_1.2.0_x64_Windows.zip",
-    "hash": "b4aadffc5f01912b06bb526d939fdd5bd1ae6b42a91cf9593b18311d863e0a8d",
+    "url": "https://github.com/LongSoft/IFRExtractor-RS/releases/download/v1.5.1/ifrextractor_v1.5.1_Windows.zip",
+    "hash": "313ee4226e8a2d261502ad17ba05f1f33f428c8ce6829174d51b1d8fd7819e46",
     "bin": "ifrextractor.exe",
     "checkver": {
         "github": "https://github.com/LongSoft/IFRExtractor-RS"
     },
     "autoupdate": {
-        "url": "https://github.com/LongSoft/IFRExtractor-RS/releases/download/v$version/IFRExtractor_$version_x64_Windows.zip"
+        "url": "https://github.com/LongSoft/IFRExtractor-RS/releases/download/v$version/ifrextractor$version_Windows.zip"
     }
 }

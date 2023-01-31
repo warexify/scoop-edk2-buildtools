@@ -1,30 +1,30 @@
 {
-    "version": "A62",
+    "version": "A63",
     "description": "UEFI firmware image viewer and editor.",
     "homepage": "https://github.com/LongSoft/UEFITool/",
     "license": "BSD-2-Clause",
     "url": [
-        "https://github.com/LongSoft/UEFITool/releases/download/A62/UEFIExtract_NE_A62_win32.zip",
-        "https://github.com/LongSoft/UEFITool/releases/download/A62/UEFIFind_NE_A62_win32.zip",
-        "https://github.com/LongSoft/UEFITool/releases/download/A62/UEFITool_NE_A62_win32.zip"
+        "https://github.com/LongSoft/UEFITool/releases/download/A63/UEFIExtract_NE_A63_win32.zip",
+        "https://github.com/LongSoft/UEFITool/releases/download/A63/UEFIFind_NE_A63_win32.zip",
+        "https://github.com/LongSoft/UEFITool/releases/download/A63/UEFITool_NE_A63_win32.zip"
     ],
     "hash": [
-        "26d3cca0d5546f2128d82fbbcd439c568a2836069b388a8f8bad181d4456fa14",
-        "ca70346769e8fc0999f25e30bfaced3b4e67a95a9207fa1b20fee73c3b5b7dd9",
-        "62df213b43763941153f9722d73a6a079d523c38f3ab41ecb310fb6a9ef1a598"
+        "eae4e979f9036dd5203d310b61f3d9d4f4bee8fac29404fe5369ba151ed79f92",
+        "605e60155dc722f2b1aac9a5d80b69be6c865b7cf0a3f03914dcbc463e14ca0f",
+        "0d01245f81f36ccc70a485dd86962704e0fbf54b74e045ff115d3c6f9ee9a6ec"
     ],
     "bin": [
         "UEFIExtract.exe",
         "UEFIFind.exe",
         [
             "UEFITool.exe",
-            "UEFITool_NE_A62"
+            "UEFITool_NE_A63"
         ]
     ],
     "shortcuts": [
         [
             "UEFITool.exe",
-            "UEFITool_NE_A62"
+            "UEFITool_NE_A63"
         ]
     ]
 }
