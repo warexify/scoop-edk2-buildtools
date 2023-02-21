@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "UNIX-like reverse engineering framework and command-line toolset",
     "homepage": "https://rizin.re",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rizinorg/rizin/releases/download/v0.5.0/rizin-windows-static-v0.5.0.zip",
-            "hash": "c8064679b73277f1763612d4d9f178a54d5722131dc51fcca62ba49bd3035f01"
+            "url": "https://github.com/rizinorg/rizin/releases/download/v0.5.1/rizin-windows-static-v0.5.1.zip",
+            "hash": "ad35600a0e733fe0fd998936a6bb3026335c2845e62f6c9162555f4ea86f1502"
         }
     },
     "extract_dir": "rizin-win-installer-vs2019_static-64",
