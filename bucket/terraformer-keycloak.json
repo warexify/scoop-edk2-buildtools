@@ -1,9 +1,9 @@
 {
-    "version": "0.8.22",
+    "version": "0.8.21",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",
     "license": "Apache-2.0",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.22/terraformer-keycloak-windows-amd64.exe#/terraformer-keycloak.exe",
-    "hash": "37e38ec9729f871e9bde8291a58f9750b685b4fd5475fb3e0dc9301a209f3923",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer/releases/download/0.8.21/terraformer-keycloak-windows-amd64.exe#/terraformer-keycloak.exe",
+    "hash": "5aad1d95bb31612a570d08d7e98f0aed28fb6de46b50795b8a59dc156ff3da91",
     "bin": "terraformer-keycloak.exe",
     "checkver": "github",
     "autoupdate": {
